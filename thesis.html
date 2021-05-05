@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Fashion </title>
+    
+    <link rel="stylesheet" type="text/css" href="styles/global.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+    
+    
+</head>
+
+<body>
+    <header>
+        <a href=index.html><img src="images/mikki_mccann_title.png" alt="Mikki McCann"></a>
+    
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li> 
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="resume.html">RESUME</a></li>
+      </ul>
+    </nav>
+
+</header>        
+        
+    <main>
+        
+        <h1>Its Always Darkest Before Dawn</h1>
+        <h2>2021 THESIS</h2>
+        
+        <ul class="fashion">
+        <li class="fashion-nav"><a href="#portfolio">PORTFOLIO</a></li>
+        <li class="fashion-nav"><a href="#techpacks">TECHPACKS</a></li> 
+        <li class="fashion-nav"><a href="#lookbook">LOOKBOOK</a></li>
+        </ul>
+        
+        <h3 class ="thesis-h3" id ="portfolio">10 page portfolio</h3>
+        
+        <figure class="thesis-portfolio">
+            <img src="images/thesis-portfolio-1.jpg">
+            <figcaption><a href="images/thesis-portfolio-10-pages.pdf" target="_blank">click here to see the 10 page portfolio</a></figcaption>
+        </figure>
+        
+            
+        
+        <h3 class ="thesis-h3" id="techpacks">Techpacks</h3>
+        
+        <figure class="thesis-portfolio">
+            <img src="images/techpack-1.png">
+            <figcaption><a href="images/thesis-portfolio-10-pages.pdf" target="_blank">click here to see the techpacks</a></figcaption>
+        </figure>
+        
+        <h3 class ="thesis-h3" id="lookbook">Lookbook</h3>
+        
+        <div class="slideshow-container">
+            <img class="slideshow3" src="images/thesis-thumbnail.jpg" style="width:100%" alt="Model wears clothes in red light">
+            <img class="slideshow3" src="images/thesis-thumbnail-2.jpg" style="width:100%" alt="Model wears clothes in blue light">
+            <img class="slideshow3" src="images/thesis-thumbnail-4.jpg" style="width:100%" alt="Model wears clothes in red and purple light">
+            <img class="slideshow3" src="images/thesis-thumbnail-3.jpg" style="width:100%" alt="Model wears clothes in purple light">
+        
+            <div>
+                <button id="display-left-3" onclick="plusDivs(-1)">&#10094;</button>
+                <button id="display-right-3" onclick="plusDivs(+1)">&#10095;</button>
+            </div>
+        </div>
+            
+         <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+        showDivs(slideIndex += n);
+}
+
+        function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("slideshow3");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length} ;
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+        }
+</script>
+            
+        <h2 class="thesis-h2"> ARCHIVAL WORK </h2>
+        
+        <div id="thumbnails">
+            <a href="femme-fatale.html" target="_blank"><img src="images/thumbnail-1.jpg" alt="model in femme fatale collection"></a>
+            <a href="night-rider.html" target="_blank"><img src="images/thumbnail-2.jpg" alt="models in nightrider collection"></a>
+            <a href="punk-pants.html" target="_blank"><img src="images/thumbnail-3.jpg" alt="model in punk collection"></a>
+        </div>
+        
+<div class="top">
+        <p> <a href="#top">Go to Top of Page </a> </p>
+        </div>
+    </main>
+    
+    <footer>
+    <a href="contact.html">Contact Me</a>
+    </footer>
+</body>
+</html>
