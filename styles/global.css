@@ -1,0 +1,609 @@
+* {
+box-sizing: border-box;
+
+}
+
+html {
+    background-image: url(../images/background_image.jpg);
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: cover;
+    background-color: #FFF;
+    font-family: 'Archivo', "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 1em;
+    color: #000;
+    
+}
+
+body {
+    margin: 0 auto;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+main {
+    width: 90%;
+    max-width: 1440px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+header img {
+    vertical-align: middle; 
+    width: 90%;
+    max-width: 320px;
+    height: auto;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top:20px;
+}
+
+nav {
+    text-align: center;
+    padding: 20px; 
+    right: 0px;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    margin-left: 12px;
+    margin-right: 12px;
+    list-style-type: none;
+}
+
+nav a, h1, h2, h3 {
+    text-decoration: none;
+    text-align: center;
+    color: #383838;
+    font-family: 'Dela Gothic One','Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+a:link, a:visited, a:active {
+  color: #383838;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: #ff7b00;
+  text-decoration: none;
+}
+
+p {
+    color: #383838;
+}
+
+#hero-image {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+#about-mikki {
+    margin-top: 100px;
+}
+
+.about-me {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 2em;
+    margin-left: auto;
+}
+
+.about-me img {
+    width: 100%;
+    height:auto;
+}
+
+.video-about-me {
+    width: 100%;
+    max-width: 640px;
+    margin: 1.5em auto;
+}
+
+.video-ette {
+    width: 100%;
+    max-width: 640px;
+    margin: 1.5em auto;
+}
+
+.video-femme-fatale {
+    width: 100%;
+    max-width: 640px;
+    margin: 1.5em auto;
+}
+
+.video-nightrider {
+    width: 100%;
+    max-width: 640px;
+    margin: 1.5em auto;
+}
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;  
+}
+
+#thesis {
+    text-align: center;
+}
+
+#thesis img {
+    width: 65%;
+    margin: 1.5em auto;
+}
+
+#thumbnails {
+    width: 100%;
+    text-align: center; 
+    margin: 0 auto;
+}
+
+#thumbnails img {
+    margin: 1%;
+    width: 31%;
+    height: auto;
+}
+
+
+.article-skinny {
+    width: 60%;
+    max-width: 500px;
+}
+
+#resume {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+#resume img {
+    width: 80%;
+    height: auto;
+    max-width: 600px;
+}
+
+ul#contact-me {
+    text-align: center;
+    padding: 20px;
+    line-height: 300%;
+    list-style: none;
+    width: 100%;
+    
+}
+    
+.social-media {
+    text-align: center;
+}
+
+.social-media img {
+   width: 4%; 
+   height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+    .map-responsive{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+}
+    .map-responsive iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+}
+
+
+div.portfolio {
+  padding: 20px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+div.portfolio img {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+
+div.portfolio .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Dela Gothic One','Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+
+
+div.portfolio .btn:hover {
+  background-color: black;
+  color: darkorange;
+
+}
+
+div.portfolio .btn a:hover {
+    color: darkorange;
+}
+
+
+ul.fashion {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Dela Gothic One','Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.fashion li {
+    margin-left: 12px;
+    margin-right: 12px;
+    list-style-type: none;
+}
+
+.fashion a {
+    color: darkorange;
+}
+
+.fashion a:hover {
+    color:#383838;
+}
+
+.thesis-portfolio img {
+    Width: 100%;
+}
+
+
+.slideshow-container {
+   width: 100%;
+   height: auto;
+}
+
+.slideshow .slideshow2 .slideshow3 {
+    display:none;
+}
+
+.slideshow .slideshow2 .slideshow3 img {
+    max-width: 1440px;
+    
+}
+
+#display-right {
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+/*    top: 100%;*/
+    right: 10%;
+    transform: translate(0%,-50%);
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+display-right btn {
+  top: 50%;  
+}
+
+#display-right:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#display-left {
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+/*    top: 100%;*/
+    left: 10%;
+    transform: translate(0%,-50%);
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#display-left btn {
+  top: 50%;  
+}
+
+#display-left:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#display-right-2 {
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+/*    top: 225%;*/
+    right: 10%;
+    transform: translate(0%,-50%);
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#display-right-2:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#display-left-2 {
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+/*    top: 225%;*/
+    left: 10%;
+    transform: translate(0%,-50%);
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#display-left-2:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#display-right-3 {
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+/*    top: 335%;*/
+    right: 10%;
+    transform: translate(0%,-50%);
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#display-right-3:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#display-left-3 {
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+/*    top: 335%;*/
+    left: 10%;
+    transform: translate(0%,-50%);
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#display-left-3:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.thesis-h3, .thesis-h2 {
+    margin-top: 100px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+
+input[type=submit] {
+  background-color: darkorange;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #383838;
+}
+
+.contact-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+footer {
+    background-color: #D8D8D8;
+    color: #FFF;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    max-width: 1440px;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+@media only screen and (min-width: 768px) {
+    body {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+    }  
+    
+    header { 
+        justify-content: space-between;
+    }
+    
+    main {
+        width: 80%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+        
+    } 
+    
+@media only screen and (min-width: 1024px){
+    body {
+        max-width: 1440px; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    } 
+    
+    header { 
+        justify-content: space-between;
+    }
+    
+    .flex-main {
+        width: 80%;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        align-items: flex-start;
+    }
+    
+    header img { 
+    width: 60%;
+    }
+    
+  ul {
+   display: flex;
+   justify-content: center;  
+}
+    
+    .navigation {
+        width: 100%;
+    }
+    
+    .about-me {
+    margin-right: 2em;
+    margin-left: 0;
+    width: 40%;
+}
+    
+    .video-about-me {
+    width: 65%;
+    max-width: 640px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+   
+    h1, h2, h3 {
+        width: 100%;
+    }
+    
+    div.top {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .about-me img {
+        flex-basis: 40%;
+    }
+
+}
+
+
